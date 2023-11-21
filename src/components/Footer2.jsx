@@ -5,7 +5,7 @@ export default function Footer() {
     <>
       <footer className="relative bg-gray-300 pt-8 pb-6">
         <div
-          className="bottom-auto top-0 left-0  right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+          className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
           style={{ height: "80px" }}
         >
           <svg
@@ -27,28 +27,26 @@ export default function Footer() {
           <div className="flex flex-wrap">
             {/* ///// */}
             <div className="flex space-x-8 items-center justify-center mt-4">
-              {/* ///////moj footerek */}
-              {/* <!-- whatsapp --> */}
-              <a href="https://www.linkedin.com/in/marta-organisciak-rhf/">
+              {/* <Link> */}
+              <a href="https://www.facebook.com/marta.organisciak/">
                 <div className="bg-gradient-to-r from-pink to-lila hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 rounded-lg w-11 h-11 flex items-center justify-center">
                   <svg
+                    width="16"
+                    /* height="12" */
+                    viewBox="0 0 6 12"
+                    fill="none"
                     xmlns="http://www.w3.org/2000/svg"
-                    xmlnsXlink="http://www.w3.org/1999/xlink"
-                    version="1.1"
-                    width="38"
-                    /* height="24" */
-                    viewBox="0 0 24 24"
                   >
                     <path
+                      d="M3.89782 12V6.53514H5.67481L5.93895 4.39547H3.89782V3.03259C3.89782 2.41516 4.06363 1.99243 4.91774 1.99243H6V0.0847928C5.47342 0.0262443 4.94412 -0.00202566 4.41453 0.000112795C2.84383 0.000112795 1.76542 0.994936 1.76542 2.82122V4.39147H0V6.53114H1.76928V12H3.89782Z"
                       fill="white"
-                      d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"
                     />
                   </svg>
                 </div>
+                {/* </Link> */}
               </a>
               {/* <Link> */}
-              {/* <!-- instagram --> */}
-              <a href="https://www.instagram.com/martao7">
+              <a href="https://www.linkedin.com/in/marta-organisciak-rhf/">
                 <div className="bg-gradient-to-r from-pink to-lila hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 rounded-lg w-11 h-11 flex items-center justify-center">
                   <svg
                     width="33"
@@ -74,7 +72,7 @@ export default function Footer() {
               </a>
               {/* </Link>
                */}
-              {/* <Link>  */} {/* <!-- LinkedIn --> */}
+              {/* <Link>  */}{" "}
               <a href="https://www.linkedin.com/in/marta-organisciak-rhf/">
                 <div className="bg-gradient-to-r from-pink to-lila hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 rounded-lg w-11 h-11 flex items-center justify-center">
                   <svg
@@ -92,27 +90,124 @@ export default function Footer() {
                   </svg>
                 </div>
               </a>
-              {/* /// */}
-              {/* <!-- Github --> */}
-              <a href="https://github.com/martao7">
-                <div className="bg-gradient-to-r from-pink to-lila hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 rounded-lg w-11 h-11 flex items-center justify-center">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    xmlnsXlink="http://www.w3.org/1999/xlink"
-                    version="1.1"
-                    width="38"
-                    /* height="24" */
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      fill="white"
-                      d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
-                    />
-                  </svg>
-                </div>
-              </a>
               {/* </Link> */}
             </div>
+
+            {/* <div className="w-full lg:w-6/12 px-4">
+              <h4 className="text-3xl font-semibold">Let's keep in touch!</h4>
+              <h5 className="text-lg mt-0 mb-2 text-gray-700">
+                Find me on any of these platforms:
+              </h5>
+              <div className="mt-6">
+                <button
+                  className="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                  type="button"
+                >
+                  <i className="flex fab fa-twitter"></i>
+                </button>
+                <button
+                  className="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                  type="button"
+                >
+                  <i className="flex fab fa-facebook-square"></i>
+                </button>
+                <button
+                  className="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                  type="button"
+                >
+                  <i className="flex fab fa-dribbble"></i>
+                </button>
+                <button
+                  className="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                  type="button"
+                >
+                  <i className="flex fab fa-github"></i>
+                </button>
+              </div>
+            </div> */}
+            {/* ////useful links part */}
+            {/* <div className="w-full lg:w-6/12 px-4">
+              <div className="flex flex-wrap items-top mb-6">
+                <div className="w-full lg:w-4/12 px-4 ml-auto">
+                  <span className="block uppercase text-gray-600 text-sm font-semibold mb-2">
+                    Useful Links
+                  </span>
+                  <ul className="list-unstyled">
+                    <li>
+                      <a
+                        className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                        href="https://www.creative-tim.com/presentation"
+                      >
+                        About Us
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                        href="https://blog.creative-tim.com"
+                      >
+                        Blog
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                        href="https://www.github.com/creativetimofficial"
+                      >
+                        Github
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                        href="https://www.creative-tim.com/bootstrap-themes/free"
+                      >
+                        Free Products
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div className="w-full lg:w-4/12 px-4">
+                  <span className="block uppercase text-gray-600 text-sm font-semibold mb-2">
+                    Other Resources
+                  </span>
+                  <ul className="list-unstyled">
+                    <li>
+                      <a
+                        className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                        href="https://github.com/creativetimofficial/argon-design-system/blob/master/LICENSE.md"
+                      >
+                        MIT License
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                        href="https://creative-tim.com/terms"
+                      >
+                        Terms & Conditions
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                        href="https://creative-tim.com/privacy"
+                      >
+                        Privacy Policy
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                        href="https://creative-tim.com/contact-us"
+                      >
+                        Contact Us
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div> */}
           </div>
           <hr className="my-6 border-gray-400" />
           <div className="flex flex-wrap items-center md:justify-between justify-center">

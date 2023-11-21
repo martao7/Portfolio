@@ -21,7 +21,7 @@ export default function Navbar(props) {
               }
               href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation"
             >
-              Tailwind Starter Kit
+              GitHub Account
             </a>
             <button
               className="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
@@ -62,7 +62,7 @@ export default function Navbar(props) {
                       " far fa-file-alt text-lg leading-lg mr-2"
                     }
                   />{" "}
-                  Docs
+                  Contact
                 </a>
               </li>
             </ul>
@@ -144,7 +144,7 @@ export default function Navbar(props) {
                   type="button"
                   style={{ transition: "all .15s ease" }}
                 >
-                  <i className="fas fa-arrow-alt-circle-down"></i> Download
+                  <i className="fas fa-arrow-alt-circle-down"></i> Click here
                 </button>
               </li>
             </ul>
