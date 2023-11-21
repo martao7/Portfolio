@@ -19,9 +19,9 @@ export default function Navbar(props) {
                 (props.transparent ? "text-white" : "text-gray-800") +
                 " text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase"
               }
-              href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation"
+              href="https://portfolio-marta-4647d9.netlify.app/"
             >
-              GitHub Account
+              About me
             </a>
             <button
               className="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
@@ -52,7 +52,7 @@ export default function Navbar(props) {
                       : "text-gray-800 hover:text-gray-600") +
                     " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   }
-                  href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/profile"
+                  href="https://portfolio-marta-4647d9.netlify.app/"
                 >
                   <i
                     className={
@@ -75,7 +75,7 @@ export default function Navbar(props) {
                       : "text-gray-800 hover:text-gray-600") +
                     " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   }
-                  href="#pablo"
+                  href="https://www.linkedin.com/in/marta-organisciak-rhf/"
                 >
                   <i
                     className={
@@ -97,14 +97,14 @@ export default function Navbar(props) {
                       : "text-gray-800 hover:text-gray-600") +
                     " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   }
-                  href="#pablo"
+                  href="https://www.linkedin.com/in/marta-organisciak-rhf/"
                 >
                   <i
                     className={
                       (props.transparent
                         ? "lg:text-gray-300 text-gray-500"
                         : "text-gray-500") +
-                      " fab fa-twitter text-lg leading-lg "
+                      " fab fa-linkedin text-lg leading-lg "
                     }
                   />
                   <span className="lg:hidden inline-block ml-2">Tweet</span>
@@ -119,7 +119,7 @@ export default function Navbar(props) {
                       : "text-gray-800 hover:text-gray-600") +
                     " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   }
-                  href="#pablo"
+                  href="https://github.com/martao7"
                 >
                   <i
                     className={
@@ -133,7 +133,7 @@ export default function Navbar(props) {
                 </a>
               </li>
 
-              <li className="flex items-center">
+              {/* <li className="flex items-center">
                 <button
                   className={
                     (props.transparent
@@ -146,7 +146,7 @@ export default function Navbar(props) {
                 >
                   <i className="fas fa-arrow-alt-circle-down"></i> Click here
                 </button>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

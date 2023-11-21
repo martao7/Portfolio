@@ -5,7 +5,7 @@ export default function Footer() {
     <>
       <footer className="relative bg-gray-300 pt-8 pb-6">
         <div
-          className="bottom-auto top-0 left-0  right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+          className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
           style={{ height: "80px" }}
         >
           <svg
@@ -25,9 +25,7 @@ export default function Footer() {
         </div>
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap">
-            {/* ///// */}
-            <div className="flex space-x-8 items-center justify-center mt-4">
-              {/* ///////moj footerek */}
+            <div className="flex space-x-20 items-center justify-center mt-4 ml-80">
               {/* <!-- whatsapp --> */}
               <a href="https://www.linkedin.com/in/marta-organisciak-rhf/">
                 <div className="bg-gradient-to-r from-pink to-lila hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 rounded-lg w-11 h-11 flex items-center justify-center">
@@ -36,7 +34,6 @@ export default function Footer() {
                     xmlnsXlink="http://www.w3.org/1999/xlink"
                     version="1.1"
                     width="38"
-                    /* height="24" */
                     viewBox="0 0 24 24"
                   >
                     <path
@@ -46,13 +43,12 @@ export default function Footer() {
                   </svg>
                 </div>
               </a>
-              {/* <Link> */}
+
               {/* <!-- instagram --> */}
               <a href="https://www.instagram.com/martao7">
                 <div className="bg-gradient-to-r from-pink to-lila hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 rounded-lg w-11 h-11 flex items-center justify-center">
                   <svg
                     width="33"
-                    /* height="13" */
                     viewBox="0 0 12 13"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -72,9 +68,8 @@ export default function Footer() {
                   </svg>
                 </div>
               </a>
-              {/* </Link>
-               */}
-              {/* <Link>  */} {/* <!-- LinkedIn --> */}
+
+              {/* <!-- LinkedIn --> */}
               <a href="https://www.linkedin.com/in/marta-organisciak-rhf/">
                 <div className="bg-gradient-to-r from-pink to-lila hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 rounded-lg w-11 h-11 flex items-center justify-center">
                   <svg
@@ -82,7 +77,6 @@ export default function Footer() {
                     xmlnsXlink="http://www.w3.org/1999/xlink"
                     version="1.1"
                     width="38"
-                    /* height="24" */
                     viewBox="0 0 24 24"
                   >
                     <path
@@ -92,7 +86,6 @@ export default function Footer() {
                   </svg>
                 </div>
               </a>
-              {/* /// */}
               {/* <!-- Github --> */}
               <a href="https://github.com/martao7">
                 <div className="bg-gradient-to-r from-pink to-lila hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 rounded-lg w-11 h-11 flex items-center justify-center">
@@ -101,7 +94,6 @@ export default function Footer() {
                     xmlnsXlink="http://www.w3.org/1999/xlink"
                     version="1.1"
                     width="38"
-                    /* height="24" */
                     viewBox="0 0 24 24"
                   >
                     <path
@@ -111,23 +103,13 @@ export default function Footer() {
                   </svg>
                 </div>
               </a>
-              {/* </Link> */}
             </div>
           </div>
           <hr className="my-6 border-gray-400" />
           <div className="flex flex-wrap items-center md:justify-between justify-center">
             <div className="w-full md:w-4/12 px-4 mx-auto text-center">
               <div className="text-sm text-gray-600 font-semibold py-1">
-                {/* Copyright © {new Date().getFullYear()} Tailwind Starter Kit by{" "} */}
                 Copyright © {new Date().getFullYear()} Marta Organisciak
-                {/* {" "}
-                <a
-                  href="https://www.creative-tim.com"
-                  className="text-gray-600 hover:text-gray-900"
-                >
-                  Creative Tim
-                </a>
-                . */}
               </div>
             </div>
           </div>
