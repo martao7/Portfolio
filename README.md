@@ -1,6 +1,6 @@
 # Portfolio
 
-About me 👩🏻‍💻
+About me 👩🏻‍💻 <br></br>
 Full Stack Web Developer / Software Tester
 
 # React + Vite
