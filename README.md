@@ -4,7 +4,7 @@ About me 👩🏻‍💻 <br></br>
 Full Stack Web Developer / Software Tester
 
 
-[Click here to see my site!:woman_surfing: ](https://portfolio-marta-4647d9.netlify.app/) 
+[Click here to see my site!](https://portfolio-marta-4647d9.netlify.app/) :woman_surfing:
 
 # React + Vite
 
