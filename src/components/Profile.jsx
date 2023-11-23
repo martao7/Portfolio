@@ -101,14 +101,16 @@ export default function Profile() {
                     <i className="fas fa-map-marker-alt mr-2 text-lg text-gray-500"></i>{" "}
                     Rheinfelden (Baden), Germany
                   </div>
-                  <div className="mb-2 text-gray-700 mt-10">
-                    <i className="fas fa-briefcase mr-2 text-lg text-gray-500"></i>
+                  <div className="mb-2 text-xl text-gray-700 mt-10">
+                    <i className="fas fa-briefcase mr-2 text-lg  text-gray-500"></i>
                     Full Stack Web&App Developer / Software Tester
                   </div>
                   <div className="mb-2 text-gray-700">
                     <i className="fas fa-university mr-2 text-lg text-gray-500"></i>
                     WBS CODING SCHOOL
                   </div>
+                  {/* //logo WBS */}
+                  {/* <img src="src/assets/icons/wbs-logo.png" /> */}
                 </div>
                 <div className="mt-10 py-10 border-t border-gray-300 text-center">
                   <div className="flex flex-wrap justify-center">
@@ -130,7 +132,7 @@ export default function Profile() {
                       <a
                         href="https://www.codewars.com/users/martao7"
                         className="font-normal text-pink-500"
-                        onClick={(e) => e.preventDefault()}
+                        // onClick={(e) => e.preventDefault()}
                       >
                         Show more
                       </a>
