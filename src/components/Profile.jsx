@@ -2,11 +2,11 @@ import React from "react";
 
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import Skills from "./Skills";
 
 export default function Profile() {
   return (
     <>
-      <Navbar transparent />
       <main className="profile-page">
         <section className="relative block" style={{ height: "500px" }}>
           <div
@@ -145,7 +145,6 @@ export default function Profile() {
           </div>
         </section>
       </main>
-      <Footer />
     </>
   );
 }
