@@ -116,17 +116,18 @@ export default function Profile() {
                   <div className="flex flex-wrap justify-center">
                     <div className="w-full lg:w-9/12 px-4">
                       <p className="mb-4 text-lg leading-relaxed text-gray-800">
-                        I have always liked working with people. I feel
+                        {/* I have always liked working with people. I feel
                         satisfaction when my work matters and can make the world
-                        a better place. <br></br>
+                        a better place. <br></br> */}
                         {/* As a kindergarten teacher I developed my
                             interpersonal skills. I realized how important is for
                             the success of the entire team the good communication
                             within the team. Working as a kindergarten teacher gave
                             me great satisfaction, but I missed the opportunity to
                             learn new technical skills.  */}
-                        I like learning new things, especially technical ones, I
-                        love to spend time writing code and learn JavaScript.
+                        I like learning new things, especially technical ones.{" "}
+                        <br></br>I love to spend my time writing code and
+                        learning JavaScript. <br></br>
                         I'm also a big fan of #Codewars platform.
                       </p>
                       <a
