@@ -4,32 +4,38 @@ export default function ImageGrid() {
   const items = [
     {
       id: 1,
-      src: "src/assets/icons/htmls.png",
+      // src: "src/assets/icons/htmls.png",
+      src: "https://cdn-icons-png.flaticon.com/512/732/732212.png",
       link: "HTML",
     },
     {
       id: 2,
-      src: "src/assets/icons/css-3.png",
+      // src: "src/assets/icons/css-3.png",
+      src: "https://cdn-icons-png.flaticon.com/512/732/732190.png",
       link: "CSS",
     },
     {
       id: 3,
-      src: "src/assets/icons/js.png",
+      //src: "src/assets/icons/js.png",
+      src: "https://cdn-icons-png.flaticon.com/512/5968/5968292.png",
       link: "JavaScript",
     },
     {
       id: 4,
-      src: "src/assets/icons/physics.png",
+      //src: "src/assets/icons/physics.png",
+      src: "https://cdn-icons-png.flaticon.com/128/875/875209.png",
       link: "React",
     },
     {
       id: 5,
-      src: "src/assets/icons/nodejs.png",
+      //src: "src/assets/icons/nodejs.png",
+      src: "https://cdn-icons-png.flaticon.com/512/919/919825.png",
       link: "NodeJS",
     },
     {
       id: 6,
-      src: "src/assets/icons/mysql.png",
+      //src: "src/assets/icons/mysql.png",
+      src: "https://cdn-icons-png.flaticon.com/512/528/528260.png",
       link: "SQL/NoSQL",
     },
   ];
