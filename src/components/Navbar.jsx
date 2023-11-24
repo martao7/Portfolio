@@ -19,7 +19,7 @@ export default function Navbar(props) {
                 (props.transparent ? "text-white" : "text-gray-800") +
                 " text-sm font-bold leading-relaxed inline-block mr-10 py-2 whitespace-nowrap uppercase"
               }
-              href="https://portfolio-marta-4647d9.netlify.app/"
+              href="https://portfolio-martao7.netlify.app"
             >
               About
             </a>
@@ -43,7 +43,7 @@ export default function Navbar(props) {
                 (props.transparent ? "text-white" : "text-gray-800") +
                 " text-sm font-bold leading-relaxed inline-block mr-10 py-2 whitespace-nowrap uppercase"
               }
-              href="https://portfolio-marta-4647d9.netlify.app/"
+              href="https://portfolio-martao7.netlify.app"
             >
               Skills
             </a>
@@ -69,7 +69,7 @@ export default function Navbar(props) {
                 (props.transparent ? "text-white" : "text-gray-800") +
                 " text-sm font-bold leading-relaxed inline-block mr-10 py-2 whitespace-nowrap uppercase"
               }
-              href="https://portfolio-marta-4647d9.netlify.app/"
+              href="https://portfolio-martao7.netlify.app"
             >
               Projects
             </a>
