@@ -8,10 +8,12 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 export default function App() {
   return (
     <>
-      <Navbar transparent />
-      <Profile />
-      <Skills />
-      <Footer />
+      <div className="bg-gray-300">
+        <Navbar transparent />
+        <Profile />
+        <Skills />
+        <Footer />
+      </div>
     </>
   );
 }
