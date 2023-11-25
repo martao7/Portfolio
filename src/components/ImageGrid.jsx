@@ -41,10 +41,7 @@ export default function ImageGrid() {
   ];
   return (
     <>
-      <div
-        name=""
-        className=" bg-gray-300 from-black to-gray-800 w-full h-full mt-20 mb-40 text-white md:h-screen text-center md:text-center"
-      >
+      <div className=" bg-gray-300 from-black to-gray-800 w-full h-full mt-20 mb-40 text-white md:h-screen text-center md:text-center">
         <div className="max-w-screen-lg p-14 mx-auto flex flex-col justify-center w-full h-full">
           <div className="pb-8">
             {/* <p className="py-80 "></p> */}

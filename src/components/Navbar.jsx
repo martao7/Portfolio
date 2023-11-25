@@ -52,12 +52,12 @@ export default function Navbar(props) {
               type="button"
               onClick={() => setNavbarOpen(!navbarOpen)}
             >
-              <i
+              {/* <i
                 className={
                   (props.transparent ? "text-white" : "text-gray-800") +
                   " fas fa-bars"
                 }
-              ></i>
+              ></i> */}
             </button>
           </div>
 
@@ -78,12 +78,12 @@ export default function Navbar(props) {
               type="button"
               onClick={() => setNavbarOpen(!navbarOpen)}
             >
-              <i
+              {/* <i
                 className={
                   (props.transparent ? "text-white" : "text-gray-800") +
                   " fas fa-bars"
                 }
-              ></i>
+              ></i> */}
             </button>
           </div>
 
