@@ -3,6 +3,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import Skills from "./Skills";
+import { Link } from "react-router-dom";
 
 export default function Profile() {
   return (
@@ -115,7 +116,7 @@ export default function Profile() {
                 <div className="mt-10 py-10 border-t border-gray-300 text-center">
                   <div className="flex flex-wrap justify-center">
                     <div className="w-full lg:w-9/12 px-4">
-                      <p className="mb-4 text-lg leading-relaxed text-gray-800">
+                      <p className="mb-8 text-lg leading-relaxed text-gray-800">
                         {/* I have always liked working with people. I feel
                         satisfaction when my work matters and can make the world
                         a better place. <br></br> */}
@@ -132,7 +133,8 @@ export default function Profile() {
                       </p>
                       <a
                         href="https://www.codewars.com/users/martao7"
-                        className="font-normal text-pink-500"
+                        className="font-normal text-pink-500 w-1/2 px-4 py-3 m-6 duration-200 rounded-md hover:scale-105 bg-gray-200"
+
                         // onClick={(e) => e.preventDefault()}
                       >
                         Show more

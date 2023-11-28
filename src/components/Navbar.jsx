@@ -1,4 +1,5 @@
 import React from "react";
+import { Link, NavLink } from "react-router-dom";
 
 export default function Navbar(props) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
@@ -37,13 +38,15 @@ export default function Navbar(props) {
             </button>
           </div>
           {/* ///next button */}
+
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <a
               className={
                 (props.transparent ? "text-white" : "text-gray-800") +
                 " text-sm font-bold leading-relaxed inline-block mr-10 py-2 whitespace-nowrap uppercase"
               }
-              href="https://portfolio-martao7.netlify.app"
+              // href="https://portfolio-martao7.netlify.app"
+              href="#Skills.jsx"
             >
               Skills
             </a>
