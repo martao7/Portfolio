@@ -46,7 +46,7 @@ export default function Navbar(props) {
                 " text-sm font-bold leading-relaxed inline-block mr-10 py-2 whitespace-nowrap uppercase"
               }
               // href="https://portfolio-martao7.netlify.app"
-              href="#Skills.jsx"
+              href="#skills"
             >
               Skills
             </a>
@@ -72,7 +72,8 @@ export default function Navbar(props) {
                 (props.transparent ? "text-white" : "text-gray-800") +
                 " text-sm font-bold leading-relaxed inline-block mr-10 py-2 whitespace-nowrap uppercase"
               }
-              href="https://portfolio-martao7.netlify.app"
+              // href="https://portfolio-martao7.netlify.app"
+              href="#projects"
             >
               Projects
             </a>

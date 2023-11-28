@@ -45,56 +45,58 @@ export default function ImageGrid() {
   ];
   return (
     <>
-      <div className=" bg-gray-300 from-black to-gray-800 w-full h-full mt-20 mb-60 text-white md:h-screen text-center md:text-center">
-        <div className="max-w-screen-lg p-14 mx-auto flex flex-col justify-center w-full h-full">
-          <div className="pb-8">
-            {/* <p className="py-80 "></p> */}
-            <p className="text-4xl font-bold inline border-b-4 border-gray-400">
-              Projects{" "}
-            </p>
+      <div className="" id="projects">
+        <div className=" bg-gray-300 from-black to-gray-800 w-full h-full mt-20 mb-60 text-white md:h-screen text-center md:text-center ">
+          <div className="max-w-screen-lg p-14 mx-auto flex flex-col justify-center w-full h-full">
+            <div className="pb-8">
+              {/* <p className="py-80 "></p> */}
+              <p className="text-4xl font-bold inline border-b-4 border-gray-400">
+                Projects{" "}
+              </p>
 
-            <p className="py-6 ">
-              the views available on GitHub and with Netlify:
-            </p>
-          </div>
+              <p className="py-6 ">
+                the views available on GitHub and with Netlify:
+              </p>
+            </div>
 
-          <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-8 sm:px-8">
-            {items.map(({ id, src, link, gitlink, titel, description }) => (
-              <div
-                key={id}
-                className="shadow-md shadow-gray-600 rounded-lg overflow-hidden"
-              >
-                <img
-                  src={src}
-                  alt=""
-                  className="px-40 py-2 mt-8 m-1 rounded-md duration-200 hover:scale-105 "
-                />
-                <p className="w-60 max-h-full justify-center text-4xl font-bold m-auto mb-4 text-black">
-                  {titel}
-                </p>
-                <p className="w-60 max-h-full justify-center m-auto mb-8 ">
-                  {description} <br></br>
-                </p>
+            <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-8 sm:px-8">
+              {items.map(({ id, src, link, gitlink, titel, description }) => (
+                <div
+                  key={id}
+                  className="shadow-md shadow-gray-600 rounded-lg overflow-hidden"
+                >
+                  <img
+                    src={src}
+                    alt=""
+                    className="px-40 py-2 mt-8 m-1 rounded-md duration-200 hover:scale-105 "
+                  />
+                  <p className="w-60 max-h-full justify-center text-4xl font-bold m-auto mb-4 text-black">
+                    {titel}
+                  </p>
+                  <p className="w-60 max-h-full justify-center m-auto mb-8 ">
+                    {description} <br></br>
+                  </p>
 
-                <div className="flex items-center justify-center mb-4">
-                  <button
-                    className="w-1/2 px-4 py-3 m-6 duration-200 rounded-md hover:scale-105 bg-black"
-                    onClick={() => window.open(link, "_blank")}
-                  >
-                    View of Project
-                  </button>
-                  <button
-                    className="w-1/2 px-4 py-3 m-6 duration-200 rounded-md hover:scale-105 bg-black"
-                    onClick={() => window.open(gitlink, "_blank")}
-                  >
-                    View of Code
-                  </button>
+                  <div className="flex items-center justify-center mb-4">
+                    <button
+                      className="w-1/2 px-4 py-3 m-6 duration-200 rounded-md hover:scale-105 bg-black"
+                      onClick={() => window.open(link, "_blank")}
+                    >
+                      View of Project
+                    </button>
+                    <button
+                      className="w-1/2 px-4 py-3 m-6 duration-200 rounded-md hover:scale-105 bg-black"
+                      onClick={() => window.open(gitlink, "_blank")}
+                    >
+                      View of Code
+                    </button>
+                  </div>
                 </div>
-              </div>
-            ))}
-          </div>
+              ))}
+            </div>
 
-          {/* <p className="mb-20 mt-0"></p> */}
+            {/* <p className="mb-20 mt-0"></p> */}
+          </div>
         </div>
       </div>
       {/* //// */}

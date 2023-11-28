@@ -4,7 +4,9 @@ import ImageGrid from "./ImageGrid.jsx";
 export default function Skills() {
   return (
     <>
-      <ImageGrid />
+      <div className="" id="skills">
+        <ImageGrid />
+      </div>
     </>
   );
 }
