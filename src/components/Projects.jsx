@@ -27,16 +27,18 @@ export default function ImageGrid() {
     <>
       <div className=" bg-gray-300 from-black to-gray-800 w-full h-full mt-20 mb-40 text-white md:h-screen text-center md:text-center">
         <div className="max-w-screen-lg p-14 mx-auto flex flex-col justify-center w-full h-full">
-          <div className="pb-8">
+          <div className="pb-6">
             {/* <p className="py-80 "></p> */}
             <p className="text-4xl font-bold inline border-b-4 border-gray-400">
               Projects{" "}
             </p>
 
-            <p className="py-6 ">on github and with netlify available:</p>
+            <p className="py-6 ">
+              the views on github and with netlify available:
+            </p>
           </div>
 
-          <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-8 sm:px-5">
+          <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-8 sm:px-8">
             {items.map(({ id, src, link, gitlink, titel, description }) => (
               <div
                 key={id}
@@ -47,22 +49,24 @@ export default function ImageGrid() {
                   alt=""
                   className="px-40 py-2 mt-8 m-1 rounded-md duration-200 hover:scale-105 "
                 />
-                <p>
-                  {titel} <br></br>
-                  {description}
+                <p className="w-60 max-h-full justify-center text-4xl font-bold m-auto mb-4 text-black">
+                  {titel}
                 </p>
-                <div className="flex items-center justify-center">
+                <p className="w-60 max-h-full justify-center m-auto mb-8 ">
+                  {description} <br></br>
+                </p>
+                <div className="flex items-center justify-center mb-4">
                   <button
-                    className="w-1/2 px-4 py-3 m-4 duration-200 hover:scale-105"
+                    className="w-1/2 px-4 py-3 m-6 duration-200 hover:scale-105 bg-black"
                     onClick={() => window.open(link, "_blank")}
                   >
-                    Projectview
+                    View of Project
                   </button>
                   <button
-                    className="w-1/2 px-4 py-3 m-4 duration-200 hover:scale-105"
+                    className="w-1/2 px-4 py-3 m-6 duration-200 hover:scale-105 bg-black"
                     onClick={() => window.open(gitlink, "_blank")}
                   >
-                    Codeview
+                    View of Code
                   </button>
                 </div>
               </div>

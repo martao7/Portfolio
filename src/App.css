@@ -4,7 +4,7 @@
   padding: 2rem;
   text-align: center;
 }
-
+/* 
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -39,4 +39,20 @@
 
 .read-the-docs {
   color: #888;
+} */
+
+p h2 {
+  width: 40vw;
+height: 7vh;
+margin: 0.5em;
+margin-bottom: 0;
+border-radius: 5px;
+border: none;
+align-self: center;
+cursor: pointer;
+border: 2px solid #2ad354;
+background-color: #25b146;
+box-shadow: 5px 5px 5px rgb(60, 61, 61);
+color: #ffff;
+font-size: large;
 }
