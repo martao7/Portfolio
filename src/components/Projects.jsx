@@ -36,7 +36,7 @@ export default function ImageGrid() {
       id: 4,
       // src: "src/assets/icons/htmls.png",
       src: "https://www.kindernetz.de/sendungen/schmecksplosion/1605000762801,image-knet-2538~_v-1x1@2dL_-029cdd853d61a51824ed2ee643deeae504b065c1.jpg",
-      link: "https://github.com/martao7/cookbook",
+      link: "https://cookbook-wbs234.netlify.app/",
       gitlink: "https://github.com/martao7/cookbook",
       titel: "CookBook",
       description:
