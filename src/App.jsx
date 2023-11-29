@@ -9,7 +9,8 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 export default function App() {
   return (
     <>
-      <div className="bg-gray-300">
+      {/* <div className="bg-gray-400"> */}
+      <div className="bg-neutral-400">
         <Navbar transparent />
         <Profile />
         <Skills />

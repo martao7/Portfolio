@@ -35,14 +35,14 @@ export default function Profile() {
               x="0"
               y="0"
             >
-              <polygon
-                className="text-gray-300 fill-current"
+              {/* <polygon
+                className="text-gray-400 fill-current"
                 points="2560 0 2560 100 0 100"
-              ></polygon>
+              ></polygon> */}
             </svg>
           </div>
         </section>
-        <section className="relative py-16 bg-gray-300">
+        <section className="relative py-16 bg-neutral-400">
           <div className="container mx-auto px-4">
             <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-xl rounded-lg -mt-64">
               <div className="px-6">
@@ -132,7 +132,7 @@ export default function Profile() {
                       </p>
                       <a
                         href="https://www.codewars.com/users/martao7"
-                        className="font-normal text-pink-500 w-1/2 px-4 py-3 m-6 duration-200 rounded-md hover:scale-105 bg-gray-200"
+                        className="font-normal text-pink-500 w-1/2 px-4 py-3 m-6 duration-200 rounded-md hover:scale-105 bg-neutral-300"
 
                         // onClick={(e) => e.preventDefault()}
                       >

@@ -25,7 +25,7 @@ export default function Footer() {
         </div> */}
 
       {/* /////// */}
-      <footer className="relative bg-gray-300 pt-8 pb-6">
+      <footer className="relative bg-neutral-400 pt-20 pb-6">
         <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
           <div className="text-sm sm:text-center"></div>
 
@@ -110,7 +110,7 @@ export default function Footer() {
           <div className="flex flex-wrap items-center mt-3 "></div>
         </div>
         {/* </footer> */}
-        <hr className="my-6 border-gray-400" />
+        <hr className="my-6 border-gray-200" />
         <div className="flex flex-wrap items-center md:justify-between justify-center">
           <div className="w-full md:w-4/12 px-4 mx-auto text-center">
             <div className="text-sm text-gray-600 font-semibold py-1">
