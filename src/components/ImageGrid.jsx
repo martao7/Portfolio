@@ -41,11 +41,11 @@ export default function ImageGrid() {
   ];
   return (
     <>
-      <div className=" bg-neutral-400 from-black to-gray-800 w-full h-full mt-0 mb-40 text-white md:h-screen text-center md:text-center">
+      <div className=" bg-neutral-200 from-black to-gray-800 w-full h-full mt-0 mb-40 text-black md:h-screen text-center md:text-center">
         <div className="max-w-screen-lg p-14 mx-auto flex flex-col justify-center w-full h-full">
           <div className="pb-6">
             {/* <p className="py-80 "></p> */}
-            <p className="text-4xl font-bold inline border-b-4 border-gray-200">
+            <p className="text-4xl font-bold inline border-b-4 border-neutral-400">
               Skills{" "}
             </p>
 
@@ -56,7 +56,7 @@ export default function ImageGrid() {
             {items.map(({ id, src, link }) => (
               <div
                 key={id}
-                className="shadow-md shadow-gray-600 rounded-lg overflow-hidden"
+                className=" bg-neutral-300 shadow-md shadow-gray-600 rounded-lg overflow-hidden"
               >
                 <img
                   src={src}

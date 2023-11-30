@@ -8,7 +8,7 @@ export default function ImageGrid() {
       src: "https://i.otto.de/i/otto/b7fd6fca-6106-5fb2-a6d8-e1e9b3bfd753?w=2500&h=2262",
       link: "https://myblog-starlight-122f3f.netlify.app/",
       gitlink: "https://github.com/martao7/sql_myBlog_workshop",
-      titel: "myBlog",
+      titel: "MyBlog",
       description:
         "A blog with notes fetched from a backend server. You can also add notes and delete them from the blog.",
     },
@@ -46,11 +46,11 @@ export default function ImageGrid() {
   return (
     <>
       <div className="" id="projects">
-        <div className=" bg-neutral-400 from-black to-gray-800 w-full h-full mt-60 mb-60 text-white md:h-screen text-center md:text-center ">
+        <div className=" bg-neutral-200 from-black to-gray-800 w-full h-full mt-60 mb-60 text-black md:h-screen text-center md:text-center ">
           <div className="max-w-screen-lg p-14 mx-auto flex flex-col justify-center w-full h-full">
             <div className="pb-0 pt-8">
               {/* <p className="py-80 "></p> */}
-              <p className="text-4xl font-bold inline border-b-4 border-gray-200">
+              <p className="text-4xl font-bold inline border-b-4 border-gray-400">
                 Projects{" "}
               </p>
 
@@ -59,11 +59,11 @@ export default function ImageGrid() {
               </p>
             </div>
 
-            <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-8 sm:px-8">
+            <div className=" grid sm:grid-cols-2 md:grid-cols-2 gap-8 sm:px-8">
               {items.map(({ id, src, link, gitlink, titel, description }) => (
                 <div
                   key={id}
-                  className="shadow-md shadow-gray-600 rounded-lg overflow-hidden"
+                  className="shadow-md shadow-gray-600 bg-white rounded-lg overflow-hidden"
                 >
                   <img
                     src={src}
@@ -79,16 +79,16 @@ export default function ImageGrid() {
 
                   <div className="flex items-center justify-center mb-4">
                     <button
-                      className="w-1/2 px-4 py-3 m-6 duration-200 rounded-md hover:scale-105 bg-black"
+                      className="w-1/2 px-4 py-3 m-6 duration-200 rounded-md hover:scale-105 bg-neutral-400 text-white"
                       onClick={() => window.open(link, "_blank")}
                     >
-                      View of Project
+                      View Page
                     </button>
                     <button
-                      className="w-1/2 px-4 py-3 m-6 duration-200 rounded-md hover:scale-105 bg-black"
+                      className="w-1/2 px-4 py-3 m-6 duration-200 rounded-md hover:scale-105 bg-neutral-400 text-white"
                       onClick={() => window.open(gitlink, "_blank")}
                     >
-                      View of Code
+                      View Code
                     </button>
                   </div>
                 </div>

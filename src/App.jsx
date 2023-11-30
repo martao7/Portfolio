@@ -10,7 +10,8 @@ export default function App() {
   return (
     <>
       {/* <div className="bg-gray-400"> */}
-      <div className="bg-neutral-400">
+      {/* <div className="bg-neutral-400"> */}
+      <div className="bg-neutral-200">
         <Navbar transparent />
         <Profile />
         <Skills />

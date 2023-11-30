@@ -19,7 +19,7 @@ export default function Profile() {
           >
             <span
               id="blackOverlay"
-              className="w-full h-full absolute opacity-50 bg-black"
+              className="w-full h-full absolute opacity-30 bg-black"
             ></span>
           </div>
           <div
@@ -42,7 +42,7 @@ export default function Profile() {
             </svg>
           </div>
         </section>
-        <section className="relative py-16 bg-neutral-400">
+        <section className="relative py-16 bg-neutral-200">
           <div className="container mx-auto px-4">
             <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-xl rounded-lg -mt-64">
               <div className="px-6">
@@ -132,7 +132,7 @@ export default function Profile() {
                       </p>
                       <a
                         href="https://www.codewars.com/users/martao7"
-                        className="font-normal text-pink-500 w-1/2 px-4 py-3 m-6 duration-200 rounded-md hover:scale-105 bg-neutral-300"
+                        className="font-normal text-pink-500 w-1/2 px-4 py-3 m-6 duration-200 rounded-md hover:scale-105 bg-neutral-200"
 
                         // onClick={(e) => e.preventDefault()}
                       >
