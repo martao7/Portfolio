@@ -93,7 +93,7 @@ export default function Profile() {
                     </div>
                   </div>
                 </div>
-                <div className="text-center mt-12">
+                <div className="text-center mt-12 ">
                   <h3 className="text-4xl font-semibold leading-normal mb-2 text-gray-800 mb-2">
                     Marta Organisciak
                   </h3>
@@ -101,12 +101,13 @@ export default function Profile() {
                     <i className="fas fa-map-marker-alt mr-2 text-lg text-gray-500"></i>{" "}
                     Rheinfelden (Baden), Germany
                   </div>
-                  <div className="mb-2 text-xl text-gray-700 mt-10">
-                    <i className="fas fa-briefcase mr-2 text-lg  text-gray-500"></i>
+                  <div className="m-20 font-semibold text-4xl text-gray-700 mt-10 mb-10 p-10 bg-pink-200">
+                    {/* <i className=" fas fa-briefcase mr-2 text-lg  text-gray-500"></i> */}
                     Full Stack Web&App Developer / Software Tester
                   </div>
+
                   <div className="mb-2 text-gray-700">
-                    <i className="fas fa-university mr-2 text-lg text-gray-500"></i>
+                    <i className="fas fa-university mr-2 text-lg mb-6 text-gray-500"></i>
                     WBS CODING SCHOOL
                   </div>
                   {/* //logo WBS */}
@@ -115,7 +116,7 @@ export default function Profile() {
                 <div className="mt-10 py-10 border-t border-gray-300 text-center">
                   <div className="flex flex-wrap justify-center">
                     <div className="w-full lg:w-9/12 px-4">
-                      <p className="mb-8 text-lg leading-relaxed text-gray-800">
+                      <p className="mb-8 text-lg leading-relaxed mt-6 text-gray-800">
                         {/* I have always liked working with people. I feel
                         satisfaction when my work matters and can make the world
                         a better place. <br></br> */}
@@ -132,7 +133,7 @@ export default function Profile() {
                       </p>
                       <a
                         href="https://www.codewars.com/users/martao7"
-                        className="font-normal text-pink-500 w-1/2 px-4 py-3 m-6 duration-200 rounded-md hover:scale-105 bg-neutral-200"
+                        className="font-bold text-pink-500 w-1/2 px-4 py-3 m-6 duration-200 rounded-md hover:scale-105 bg-neutral-200"
 
                         // onClick={(e) => e.preventDefault()}
                       >
