@@ -1,4 +1,5 @@
 import React from "react";
+import MenuLink from "./BackToMenu";
 
 export default function ImageGrid() {
   const items = [
@@ -76,6 +77,7 @@ export default function ImageGrid() {
           </div>
           {/* <p className="mb-20 mt-0"></p> */}
         </div>
+        <MenuLink />
       </div>
     </>
   );

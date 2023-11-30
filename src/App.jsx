@@ -5,6 +5,7 @@ import Footer from "./components/Footer.jsx";
 import Navbar from "./components/Navbar.jsx";
 import Projects from "./components/Projects.jsx";
 import "@fortawesome/fontawesome-free/css/all.min.css";
+import MenuLink from "./components/BackToMenu.jsx";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
         <Profile />
         <Skills />
         <Projects />
+        <MenuLink />
         <Footer />
       </div>
     </>

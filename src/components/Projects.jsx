@@ -1,4 +1,5 @@
 import React from "react";
+import MenuLink from "./BackToMenu";
 
 export default function ImageGrid() {
   const items = [

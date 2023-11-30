@@ -12,6 +12,7 @@ export default function Navbar(props) {
             : "relative shadow-lg bg-white shadow-lg") +
           " flex flex-wrap items-center justify-between px-2 py-3 "
         }
+        id="navbar"
       >
         <div className="container px-12 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
