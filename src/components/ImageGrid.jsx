@@ -77,7 +77,7 @@ export default function ImageGrid() {
           </div>
           {/* <p className="mb-20 mt-0"></p> */}
         </div>
-        <MenuLink />
+        {/* <MenuLink /> */}
       </div>
     </>
   );

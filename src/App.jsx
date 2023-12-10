@@ -6,6 +6,8 @@ import Navbar from "./components/Navbar.jsx";
 import Projects from "./components/Projects.jsx";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import MenuLink from "./components/BackToMenu.jsx";
+import CarouselImages from "./components/CarouselImages.jsx";
+// import { Carousel, Typography, Button } from "@material-tailwind/react";
 
 export default function App() {
   return (
@@ -17,7 +19,9 @@ export default function App() {
         <Profile />
         <Skills />
         <Projects />
+        {/* <CarouselImages /> */}
         <MenuLink />
+
         <Footer />
       </div>
     </>
